@@ -57,9 +57,9 @@ useRefs的使用场景：
 启动命令式动画。</p>
 
 
-        <h2 className='question'>  State是什么？ </h2>
+        <h2 className='question'>  ES6和ES5的区别？ </h2>
         <p className='answer'>
-        State是一个React的内置对象，用于在组件中创建和管理数据。它与props的不同之处在于它用于存储数据而不是传递数据。State是可变的（数据可以更改）并且可以通过this.state()访问。。</p>
+        区别：1、es6新增了箭头函数，es5没有；2、ES6中新增了块级作用域，es5没有；3、ES6引入Class概念，不再像ES5一样使用原型链实现继承；4、ES6中可以设置默认函数参数，es5不行；5、ES6中新增了promise特性。</p>
 
         <h2 className='question'>  State是什么？ </h2>
         <p className='answer'>

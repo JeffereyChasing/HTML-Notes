@@ -1,11 +1,28 @@
-import { Html,CSS,React_frame} from "./components"
+import { Html,CSS,React_frame,Javascript,Navbar} from "./components"
 
 const App = () => {
   return (
       <div>
-        <Html/>
-        <CSS/>
-        <React_frame/>
+
+        <div>
+          <Navbar/>
+        </div>
+        <div>        
+          <Html/>
+        </div>
+
+        <div>
+          <CSS/>
+          <React_frame/>
+        </div>
+
+        <div>
+          <Javascript/>
+        </div>
+
+        
+
+
       </div>
   )
 }
